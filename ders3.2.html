@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="still.css">
 </head>   
 <body>
-    <h2>Form Tablosu</h2>
+    <h2 class="tablo-baslik">Form Tablosu</h2>
 
-    <table border="1">
+    <table class="form-tablosu" border="1">
         <thead>
             <tr>
                 <th>Adınız</th>
@@ -21,7 +22,7 @@
         </thead>
         <tbody>
             
-            <tr>
+            <tr class="kullanici-satir-1">
                 <form action="/submit_user_1" method="post">
                     <td><input type="text" name="ad" value="İrem"></td>
                     <td><input type="text" name="soyad" value="Kartal"></td>
@@ -32,7 +33,7 @@
                 </form>
             </tr>
 
-            <tr>
+            <tr class="kullanici-satir-2">
                 <form action="/submit_user_2" method="post">
                     <td><input type="text" name="ad" value="Areg"></td>
                     <td><input type="text" name="soyad" value="Ahmed"></td>
@@ -43,7 +44,7 @@
                 </form>
             </tr>
 
-            <tr>
+            <tr class="kullanici-satir-3">
                 <form action="/submit_user_3" method="post">
                     <td><input type="text" name="ad" value="Mahmut"></td>
                     <td><input type="text" name="soyad" value="Karaarslan"></td>
