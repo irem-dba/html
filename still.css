@@ -1,0 +1,36 @@
+.tablo-baslik{
+    text-align: center;
+    margin-top: 20px; 
+    margin-bottom: 20px;
+}
+
+.form-tablosu{
+    width: 80%;
+    margin: 50px auto;
+    
+    border-collapse: collapse;
+}
+
+.form-tablosu th, .form-tablosu td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.form-tablosu thead th {
+    background-color: yellow;
+    color: black;
+}
+
+.form-tablosu .kullanici-satir-1 td { 
+    background-color: #8B0000; 
+    color: white; 
+}
+
+.form-tablosu .kullanici-satir-2 td {
+    background-color: red;
+}
+
+.form-tablosu .kullanici-satir-3 td {
+    background-color: blue;
+    color: white;
+}
